@@ -1,0 +1,48 @@
+{
+  "Employees": [
+    {
+      "name": "John Doe",
+      "age": 30,
+      "email": "john@example.com",
+      "start_date": "2020-01-15"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 25,
+      "email": "jane@example.com",
+      "start_date": "2021-03-10"
+    },
+    {
+      "name": "Robert Johnson",
+      "age": 45,
+      "email": "robert@example.com",
+      "start_date": "2019-11-05"
+    }
+  ],
+  "Products": [
+    {
+      "product": "Laptop",
+      "category": "Electronics",
+      "price": 1200.5,
+      "in_stock": true
+    },
+    {
+      "product": "Phone",
+      "category": "Electronics",
+      "price": 800.75,
+      "in_stock": true
+    },
+    {
+      "product": "Tablet",
+      "category": "Electronics",
+      "price": 350.99,
+      "in_stock": false
+    },
+    {
+      "product": "Monitor",
+      "category": "Electronics",
+      "price": 250.5,
+      "in_stock": true
+    }
+  ]
+}
