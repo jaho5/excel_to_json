@@ -1,0 +1,11 @@
+{
+  "field_id": "ENGINE_FIELD_NAME",
+  "display_name": "ENGINE_DISPLAY_NAME",
+  "field_type": "ENGINE_FIELD_TYPE",
+  "required": "ENGINE_REQUIRED_WHEN_VISIBLE_AND_EDITABLE",
+  "display_type": "ENGINE_DISPLAY_TYPE",
+  "parent_apps": "ENGINE_FIELD_PARENT_APPLICATIONS",
+  "parent_forms": "ENGINE_FIELD_PARENT_FORMS",
+  "refresh_on_change": "ENGINE_REFRESH_ON_CHANGE",
+  "is_multivalue": "ENGINE_IS_MULTIVALUE"
+}
