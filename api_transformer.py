@@ -1,5 +1,6 @@
 import logging
 from typing import Dict, List, Any, Optional
+import pandas as pd
 
 # Configure logging
 logging.basicConfig(
@@ -81,6 +82,8 @@ class APITransformer:
         
         # Transform each field in the row to a Field entry
         for key, value in row_data.items():
+            if value is None or pd.isna(value) or (isinstance(value, str) and not value.strip()):
+                continue
             # Skip empty values
             if value is None or (isinstance(value, str) and not value.strip()):
                 field_entry = {
